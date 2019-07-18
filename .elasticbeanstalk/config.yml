@@ -1,6 +1,6 @@
 branch-defaults:
   master:
-    environment: TboltWebService-env
+    environment: TboltWebService
 environment-defaults:
   TboltWebService-env:
     branch: master
