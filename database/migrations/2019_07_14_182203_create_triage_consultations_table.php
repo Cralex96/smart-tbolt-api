@@ -17,7 +17,7 @@ class CreateTriageConsultationsTable extends Migration
             $table->increments('id');
             $table->dateTime('admission_date');
             $table->text('background');
-            $table->integer('user_id');
+            $table->integer('employee_id');
             $table->integer('patient_id');
             $table->text('observations');
             $table->tinyInteger('triage_level');
